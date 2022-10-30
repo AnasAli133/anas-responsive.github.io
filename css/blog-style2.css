@@ -1,0 +1,15 @@
+nav {
+    display: flex;
+    grid-area: hd;
+    justify-content: center;
+    align-items: center;
+    color: brown;
+}
+
+.card {
+    grid-area: card;
+}
+
+footer {
+    grid-area: ft;
+}

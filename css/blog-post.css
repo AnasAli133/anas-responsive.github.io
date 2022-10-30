@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+
+body {
+    background-color: bisque;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: brown;
+}
+
+nav h2 {
+    color: brown;
+    font-size: 36px;
+    font-family: 'Lato', sans-serif;
+}
+
+nav a:link, a:visited {
+    color: blue;
+    text-align: center;
+    text-decoration: none;
+}
+
+#author {
+    display: flex;
+    align-items: flex-start;
+    margin: 2rem;
+    background-color: gray;
+}
+
+.avater {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+figcaption {
+    margin-top: 2px;
+    font-size: 10px;
+    font-family: 'Lato', sans-serif;
+    background-color: gainsboro;
+}
+
+#author img {
+    height: 160px;
+    width: 160px;
+    margin-left: 5px;
+    margin-top: 9px;
+    object-fit: cover;
+    object-position: top;
+    border: 5px solid wheat;
+    box-shadow: 0 2px 8px black;
+}
+
+#author ul {
+    color: whitesmoke;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+#author p {
+    color: whitesmoke;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+#post {
+    background-color: blanchedalmond;
+    margin: 10px;
+}
+#post .content {
+
+    margin-left: 5px;
+    color: brown;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+#post .source {
+    color: burlywood;
+    margin-left: 3px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+
+@media(max-width: 600px) {
+    #author {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 1.5rem;
+        background-color: gray;
+    }
+    #author p {
+        padding: 10px;
+    }
+}
